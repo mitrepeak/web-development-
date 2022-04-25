@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Not a Real CRM</title>
+  </head>
+  <body>
+    <h1>Not a Real CRM</h1>
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#Catalog">Catalog</a></li>
+      <li><a href="#Inventory">Inventory</a></li>
+    </ul>
+    <h2>Contacts</h2>
+    <h3>My CRM</h3>
+    <ul>
+      <li><a href="#">Contacts</a></li>
+      <li><a href="#">Orders</a></li>
+      <li><a href="#">Calendar</a></li>
+      <li><a href="#">Tasks</a></li>
+      <li><a href="#">Evaluation Copies</a></li>
+    </ul>
+    <h3>Will Smith</h3>
+    <h3>Food Factory</h3>
+    <p>
+      Address: 134-E, Industrial Area, Baikampady <br />
+      City: Mangaluru <br />
+      Region: DK <br />
+      Country: India <br />
+      Postal: 00000-0000 <br />
+      Phone: +0(000)000-0000 <br />
+      Email: nuofoodindustries@gmail.com
+    </p>
+
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/place/Unofood+Industries/@12.955547,74.8192532,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba351ac82992145:0xc65dce8651103ff0!8m2!3d12.9556103!4d74.8214394"
+        width="440rem"
+        height="330rem"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <figcaption><em>Map for Unofood Industries </em></figcaption>
+    </figure>
+    <h3>Last Contact Viewed</h3>
+
+    <a href="#">mitrepeak</a>
+    <p>University that has the name of VTU</p>
+
+    <p>
+      <a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a>
+    </p>
+    <p><em>Copyright &copy; 2022 Not a Real CRM</em></p>
+  </body>
+</html>
