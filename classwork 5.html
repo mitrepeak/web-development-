@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Not a Real CRM</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="c.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <div class="comp1">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Catalog</a></li>
+        <li><a href="#">Inventory</a></li>
+      </ul>
+    </div>
+    <div class="comp2 stripedBackground">
+      <h1>!aCRM</h1>
+    </div>
+    <div class="comp3">
+      <ul>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">Evaluation Copies</a></li>
+      </ul>
+    </div>
+    <div class="comp4">
+      <figure>
+        <img class="image" src="twfounder.webp" width="150rem" height="200rem" />
+        <figcaption>Jack Dorsey</figcaption>
+      </figure>
+    </div>
+    <div style="padding-left: 5rem; padding-right: 5rem">
+      <div class="comp5">
+        <h3
+          class="stripedBackground"
+          style="padding: 0.5rem; font-size: larger"
+        >
+          Personal Details
+        </h3>
+        <p style="padding: 0.5rem">
+          <em>Address:</em>Sea Cliff<br/>
+          <em>City:</em>San Fancisco<br/>
+          <em>Region:</em> California<br/><em>Country:</em> US <br/>
+          <em>Postal:</em> 
+        </p>
+        <div style="background-color: pink; padding: 0.2rem">
+          <button><a href="#">Edit</a></button>
+          <button><a href="#">Flag</a></button>
+        </div>
+      </div>
+      <div class="comp6">
+        <h3
+          class="stripedBackground"
+          style="padding: 0.5rem; font-size: larger"
+        >
+          Contact
+        </h3>
+        <p style="padding: 0.5rem">
+          <em>Phone:</em> 31256-98742 <br />
+          <em>Email:</em> xxxxxxxxxxx@gmail.com
+        </p>
+        <div style="background-color: pink; padding: 0.2rem">
+          <button><a href="#">Edit</a></button>
+          <button><a href="#">Flag</a></button>
+        </div>
+      </div>
+      <div class="comp7">
+        <h3
+          class="stripedBackground"
+          style="padding: 0.5rem; font-size: larger"
+        >
+          Sales Activity
+        </h3>
+
+        <div id="myPlot" style="width: 100%; max-width: 700px"></div>
+        <script>
+          var xArray = ["Italy", "France", "Spain", "USA", "Argentina"];
+          var yArray = [55, 49, 44, 24, 15];
+
+          var data = [
+            {
+              x: xArray,
+              y: yArray,
+              type: "bar",
+            },
+          ];
+
+          var layout = { title: "World Wide Wine Production" };
+
+          Plotly.newPlot("myPlot", data, layout);
+        </script>
+      </div>
+      <div class="comp8">
+        <p>
+          <a href="#">Home</a> | <a href="#">Catalog</a> |
+          <a href="#">Inventory</a>
+        </p>
+        <p>Copyright &copy; Not a Real CRM</p>
+      </div>
+    </div>
+  </body>
+</html>
